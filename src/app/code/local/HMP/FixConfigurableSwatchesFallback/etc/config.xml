@@ -20,11 +20,11 @@
             <fixconfigurableswatchesfallback>
                 <class>HMP_FixConfigurableSwatchesFallback_Model</class>
             </fixconfigurableswatchesfallback>
-            <configurableswatches>
+            <configurableswatches_resource>
                 <rewrite>
-                    <resource_catalog_product_attribute_super_collection>HMP_FixConfigurableSwatchesFallback_Model_Resource_Catalog_Product_Attribute_Super_Collection</resource_catalog_product_attribute_super_collection>
+                    <catalog_product_attribute_super_collection>HMP_FixConfigurableSwatchesFallback_Model_Resource_Catalog_Product_Attribute_Super_Collection</catalog_product_attribute_super_collection>
                 </rewrite>
-            </configurableswatches>
+            </configurableswatches_resource>
         </models>
     </global>
 </config>
