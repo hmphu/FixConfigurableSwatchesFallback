@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HMP_FixConfigurableSwatchesFallback>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>Mage_ConfigurableSwatches</depends>
+        </HMP_FixConfigurableSwatchesFallback>
+    </modules>
+</config>
