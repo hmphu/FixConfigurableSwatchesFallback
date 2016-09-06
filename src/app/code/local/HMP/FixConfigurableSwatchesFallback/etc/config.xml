@@ -16,5 +16,15 @@
                 </rewrite>
             </configurableswatches>
         </helpers>
+        <models>
+            <fixconfigurableswatchesfallback>
+                <class>HMP_FixConfigurableSwatchesFallback_Model</class>
+            </fixconfigurableswatchesfallback>
+            <configurableswatches_resource>
+                <rewrite>
+                    <catalog_product_attribute_super_collection>HMP_FixConfigurableSwatchesFallback_Model_Resource_Catalog_Product_Attribute_Super_Collection</catalog_product_attribute_super_collection>
+                </rewrite>
+            </configurableswatches_resource>
+        </models>
     </global>
 </config>
